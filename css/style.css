@@ -1,0 +1,113 @@
+:root {
+--Soft-blue: hsl(215, 51%, 70%);
+--Cyan: hsl(178, 100%, 50%);
+/*Primary Colors */
+
+--Very-dark-blue-main: hsl(217, 54%, 11%);
+--Very-dark-blue-card: hsl(216, 50%, 16%);
+--Very-dark-blue-line: hsl(215, 32%, 27%);
+--White: hsl(0, 0%, 100%);
+/*Neutral Colors*/
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Outfit", sans-serif;
+    background-color: var(--Very-dark-blue-main);
+    color: var(--Soft-blue);
+    font-size: 15px;
+    
+}
+
+
+
+.card {
+    padding: 1.25rem;
+    background-color: var(--Very-dark-blue-card);
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    height: 500px;
+    
+}
+
+.image-container {
+    width: 100%;
+    margin-bottom: 1rem;
+
+}
+
+.image-container img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+.remaining-items {
+    width: 100%;
+
+}
+
+.title {
+    color: var(--White);
+    margin-bottom: 1rem;
+}
+
+.description {
+    margin-bottom: 1rem;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid var(--Very-dark-blue-line);
+    padding-top: 1rem;
+}
+
+
+.avatar-container img {
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 50px;
+    
+}
+
+.etherium {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    
+    
+}
+
+.time-left {
+    display: flex;
+}
+
+.time-left p, .balance-nft p {
+    padding-left: 0.3rem;
+    font-size: 14px;
+}
+
+.balance-nft {
+    display: flex;
+}
+
+.profile p {
+    padding-left: 1rem;
+}
+
+
+
+
